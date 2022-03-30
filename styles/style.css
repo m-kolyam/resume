@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {
+    color: #373a26;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: rgba(152, 157, 138, 0.50); ;
+}
+
+.container{
+    padding-top: 30px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.info {
+    margin-bottom: 22px;
+}
+
+.avatar {
+    display: block;
+    margin: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 50%; */
+
+    width: 280px;
+    border-radius: 52px;
+    box-shadow: 6px 6px 20px rgba(29, 63, 0, 0.65);
+}
+
+/* .info img {
+    width: 280px;
+} */
+
+.info h1 {
+    text-align: center;
+}
+
+.info p {
+    color: #373a26;;
+    margin: 0px 20px;
+}
+
+.info hr {
+    background-color: orange;
+    block-size: 4px;
+    width: 95%;
+    border: none;
+}
+
+.card {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background: rgba(164, 179, 125, 0.5);
+    padding: 1px 25px 15px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+}
+
+h1 {
+    /* color: rgb(225, 20, 70); */
+    color: #ffbb01;
+    text-shadow: 2px 1px 4px #00218d;
+}
+
+h2 {
+    /* color: rgb(225, 20, 70); */
+    color: #ffbb01;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.list {
+    padding: 0 20px;
+    color: #373a26;
+}
+
+.list li {
+    margin-bottom: 4px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 3px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgb(185, 43, 128);
+}
+
+.form {
+
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form_row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form_row .form_group {
+    margin-right: 20px;
+    width: 50%; /* использовать с display: flex; который в .form_row */
+    /* display: inline-block;  */
+    /* width: calc(50% - 20px); */
+}
+
+.form_row .form_group:last-child {
+    margin-right: 0px;
+}
+
+.form_group {
+
+}
+
+.form_group label {
+    display: block;
+    font-size: 14px;   
+}
+
+.form_group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 5px;
+    color: #373a26;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    padding-left: 10px;
+}
+
+.button {
+    background: rgb(51, 56, 37);
+    padding: 7px 50px;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.92;
+    color: rgb(255, 241, 45);
+}
+
+a {
+    color: rgba(0, 0, 255, 0.75);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 255, 0.75);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(73, 160, 7);
+}
+
+a:visited {
+    color: rgb(56, 40, 40);
+}
